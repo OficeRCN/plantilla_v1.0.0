@@ -1,0 +1,16 @@
+.container {
+    position: static;
+    height: 90vh;
+    width: 100%;
+    background-image: linear-gradient(to right, #f0f0f0 1px, transparent 1px), linear-gradient(to bottom, #f0f0f0 1px, transparent 1px);
+    background-size: 6rem 4rem;
+}
+
+.child {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-image: radial-gradient(circle at 50% 100px, #C9EBFF, transparent);
+}
